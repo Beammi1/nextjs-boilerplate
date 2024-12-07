@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 
-export default function pagetwo() {
+export default function page() {
   return (
     <div>
       <div className="flex h-screen">
