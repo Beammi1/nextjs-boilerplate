@@ -2,8 +2,6 @@
 
 import { useState } from "react";
 
-import pagetwo from "./pagetwo";
-
 export default function Home() {
   return (
     <div>
