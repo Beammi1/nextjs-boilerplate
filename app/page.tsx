@@ -22,7 +22,7 @@ export default function Home() {
           {/* ส่วนข้อมูล */}
             <section>
               <span className="inline-flex pl-10">
-                  <h1 className="text-blue-600 pt-2 font-semibold text-xl hover:underline underline-offset-4 decoration-2 pr-3"><a href="https://beamdosanan-e3vb.vercel.app/">จัดการรายชื่อนักเรียน</a></h1>
+                  <h1 className="text-blue-600 pt-2 font-semibold text-xl hover:underline underline-offset-4 decoration-2 pr-3"><a href="https://beamdosanan-e3vb.vercel.app">จัดการรายชื่อนักเรียน</a></h1>
                     <img className="w-6 h-4 mt-2" src="https://i.postimg.cc/bJvFL4sh/arrow-forward-ios-24dp-5-F6368-FILL0-wght400-GRAD0-opsz24.png"/>
                   <h1 className="text-blue-600 pt-2 font-semibold text-xl hover:underline underline-offset-4 decoration-2 pl-3">สร้างรายชื่อนักเรียน</h1>
               </span>       
@@ -99,7 +99,7 @@ export default function Home() {
                   บันทึก
                 </button>
                 <button className="text-blue-700 rounded-xl w-28 h-8 ring ring-blue-700 ring-offset-0 hover:bg-blue-700 hover:text-white m-10 text-bold">
-                  <a href="https://beamdosanan-e3vb.vercel.app/">ย้อนกลับ</a>
+                  <a href="https://beamdosanan-e3vb.vercel.app">ย้อนกลับ</a>
                 </button>
               </div>
             </section>
