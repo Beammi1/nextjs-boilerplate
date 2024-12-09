@@ -11,22 +11,22 @@ export default function Home() {
             <h1 className="text-center text-blue-800 font-extrabold text-lg pb-2 border-b-2 border-gray-300">ระบบจัดเก็บข้อมูล<br/>โรงเรียนสตรีอ่างทอง</h1>
               <div className="flex justify-center">
                 <img className="w-6 pt-4" src="https://i.postimg.cc/Cxz9Nq6H/group-24dp-5-F6368-FILL0-wght400-GRAD0-opsz24.png"/>
-                <a className="ml-2 pt-4 text-mg text-gray-500" href="pagetwo.tsx">จัดการรายชื่อนักเรียน</a>
+                <p className="ml-2 pt-4 text-mg text-gray-500">จัดการรายชื่อนักเรียน</p>
               </div>
           </div>
           {/* โปรไฟล์ */}
         <div className=" bg-white w-5/6">
           <div className="grid grid-rows-1 grid-flow-col gap-1">
             <section className="col-span-2 h-14 border-b-2 border-gray-300">
-              <div className="flex justify-self-end pr-4 pt-5">Profile</div>
+              <div><img className="grid justify-self-end mr-22 pt-1 size-10 rounded-full" src="https://i.postimg.cc/PJYb59mq/94dd17300b4b6897d88071c4f42e0b80.jpg"/></div>
             </section>
           </div>
           {/* ส่วนข้อมูล */}
             <section>
               <span className="inline-flex pl-10">
-                  <h1 className="text-blue-800 pt-2 font-semibold text-sm hover:underline underline-offset-4 decoration-2 pr-3">จัดการรายชื่อนักเรียน</h1>
+                  <h1 className="text-blue-600 pt-2 font-semibold text-xl hover:underline underline-offset-4 decoration-2 pr-3">จัดการรายชื่อนักเรียน</h1>
                     <img className="w-6 h-4 mt-2" src="https://i.postimg.cc/bJvFL4sh/arrow-forward-ios-24dp-5-F6368-FILL0-wght400-GRAD0-opsz24.png"/>
-                  <h1 className="text-blue-800 pt-2 font-semibold text-sm hover:underline underline-offset-4 decoration-2 pl-3">สร้างรายชื่อนักเรียน</h1>
+                  <h1 className="text-blue-600 pt-2 font-semibold text-xl hover:underline underline-offset-4 decoration-2 pl-3">สร้างรายชื่อนักเรียน</h1>
               </span>       
                   <p className="pt-4 pb-2 pl-10 text-sm text-gray-500 font-bold">ข้อมูลเบื้องต้น</p>
                   {/* ข้อมูลย่อย */}
@@ -53,36 +53,41 @@ export default function Home() {
                 <div className="grid grid-row-2 gap-4 pl-10">
                   <div>
                     <select name="ชั้นปี" id="Class"className="bg-gray-200 rounded-md h-10 w-2/6 outline-none">
-                      <option>ชั้นปีที่1</option>
-                        <option>ชั้นปีที่2</option>
-                          <option>ชั้นปีที่3</option>
-                            <option>ชั้นปีที่4</option>
+                      <option>กรุณาเลือกชั้นปี</option>
+                        <option>ชั้นปีที่1</option>
+                          <option>ชั้นปีที่2</option>
+                            <option>ชั้นปีที่3</option>
+                          <option>ชั้นปีที่4</option>
                         <option>ชั้นปีที่5</option>
                       <option>ชั้นปีที่6</option>
                     </select> 
                   </div>
                 <div>
                     <select name="ห้องที่" id="Class"className="bg-gray-200 rounded-md h-10 w-2/6 outline-none">
+                    <option>กรุณาเลือกห้อง</option>
                       <option>ห้องที่1</option>
                         <option>ห้องที่2</option>
                           <option>ห้องที่3</option>
                             <option>ห้องที่4</option>
                               <option>ห้องที่5</option>
                                 <option>ห้องที่6</option>
-                                <option>ห้องที่7</option>
-                              <option>ห้องที่8</option>
-                            <option>ห้องที่9</option>
-                          <option>ห้องที่10</option>
-                        <option>ห้องที่11</option>
-                      <option>ห้องที่12</option>
+                                  <option>ห้องที่7</option>
+                                    <option>ห้องที่8</option>
+                                  <option>ห้องที่9</option>
+                                <option>ห้องที่10</option>
+                              <option>ห้องที่11</option>
+                            <option>ห้องที่12</option>
+                          <option>ห้องที่13</option>
+                        <option>ห้องที่14</option>
+                      <option>ห้องที่15</option>
                     </select> 
                   </div>
                 </div>
             </section>
             <section>
               <div className="pl-10 pt-10 border-t-2 border-gray-300 mt-10">
-                <label>หมายเหตุ</label>
-                <textarea className="bg-gray-200 rounded-md h-24 w-2/6 outline-none flex justify-start pt-2 tracking-wider" placeholder="กรุณากรอกหมายเหตุ"></textarea>
+                <label>หมายเหตุ<textarea className="bg-gray-200 rounded-md h-24 w-2/6 outline-none flex justify-start pt-2 tracking-wider resize-none" placeholder="กรุณากรอกหมายเหตุ"></textarea></label>
+                
               <label className="inline-grid items-center cursor-pointer">
                 <label>สถานะใช้งาน</label>
               <input type="checkbox" value="" className="sr-only peer"></input>
